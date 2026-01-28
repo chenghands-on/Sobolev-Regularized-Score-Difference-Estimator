@@ -1,0 +1,1 @@
+Code in this folder is modified from https://github.com/dilinwang820/Stein-Variational-Gradient-Descent.git

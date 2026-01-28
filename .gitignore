@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Data directories (large)
+SSSD-ECG-main/src/sssd/Diffusion_RL/ecg_ptbxl_benchmarking/data/
+SSSD-ECG-main/src/sssd/Diffusion_RL/ecg_ptbxl_benchmarking/tmp_data/
+SSSD-ECG-main/src/sssd/Diffusion_RL/ecg_ptbxl_benchmarking/model_weight/
+gradest2/previous/data/
+
+# Compressed files
+*.zip
+*.tar.gz
+*.gz
+
+# Model weights
+*.pkl
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.hdf5
+
+# Data files (large files)
+*.mat
+*.npy
+*.npz
+# But keep small example data files if needed (uncomment specific files)
+# !gradest2/breast_cancer.mat
+
+# Media files
+*.mp4
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Output/Results
+optimal_results/
+output/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
